@@ -1,0 +1,223 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   /* margin: 0px;
+   padding: 0px; */
+   text-align: center;
+   border-radius: 10px;
+}
+.actionStuff {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.action-item {
+  display: flex;
+  margin-left: .5em;
+  margin-right: .5em;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(185, 253, 185);
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 30px;
+  padding: 15px;
+  
+}
+.cost {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.cost h2 {
+  font-size: 35pt;
+}
+#ourCause{
+  font-size: 40pt;
+}
+
+#ourCausep {
+  font-size: 25pt;
+}
+
+#costp {
+  font-size: 25pt;
+}
+.actioncontainer1 {
+  display: flex;
+  flex-direction: row;
+  height: 17em;
+  align-items: center;
+  /* padding-bottom: 1em;
+  padding-top: 1em; */
+
+}
+.actioncontainer2 {
+  display: flex;
+  flex-direction: row;
+
+}
+.actioncontainer3 {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+
+}
+.actioncontainer4 {
+  display: flex;
+  flex-direction: row;
+
+}
+.actioncontainer5 {
+  display: flex;
+  flex-direction: row;
+
+}
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: rgb(29, 83, 29);
+  font-size: 50pt;
+  
+}
+h3 {
+  font-size: 40 pt;
+}
+
+#aboutPara {
+  font-size: 27pt;
+}
+
+/* STYLE IMAGES */
+#shoppingpic {
+  height: 14em;
+  width: 22em;
+  border-radius: 10px;
+}
+
+#marketpic {
+  height: 10em auto;
+  width: 17em;
+  border-radius: 10px;
+}
+#strawpic {
+  padding: 20px;
+  height: 14em;
+  width: 20em;
+  
+  
+  border-radius: 10px;
+}
+
+#sweaterpic {
+  display: flex;
+  height: 14em;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: none;
+  align-items: center;
+}
+/* STYLE FLEX */
+.flex1 {
+  display: flex;
+  grid-column-gap: 20px;
+  list-style-type: none;
+  margin-top: 5em auto;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-right: 3em;
+}
+#windmill {
+  height: 30em;
+  width: 40em;
+}
+
+#ourCause {
+  font-size: 30pt;
+}
+#ourCausetext {
+  margin: 3em;
+  padding-left: 2em;
+  flex-wrap: nowrap;
+  font-size: 20pt;
+  
+}
+.flex-item {
+  align-items: center;
+}
+/* STYLE NAV BAR */
+.nav-bar{
+  list-style-type: disc;
+  background-color: rgb(255, 176, 176);
+  text-align-last: right;
+  overflow: hidden;
+  padding: 0.5em;
+  display: block;
+  padding-inline-start: 5em;
+} 
+li {
+  text-align: center;
+}
+.nav-elements{
+  display: inline;
+  text-align: right
+}
+
+.nav-elements a {
+  text-align: center;
+  text-decoration: none;
+  color: #1e5336;
+  font-size: 1 em;
+  padding: 0.5em;
+}
+
+li a:hover {
+  background-color: rgb(255, 206, 206);
+}
+
+
+/* STYLE BUTTONS */
+.funfact {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(182, 255, 188);
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 30px;
+  padding: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+  /*font-family: "Roboto Mono", sans-serif; */
+  font-size: 2em;
+  line-height: 1.9em;
+  color: rgb(0, 0, 0);
+}
+.ffelement {
+  margin-bottom: 1em;
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 0.5em
+}
+#thefunfact {
+  margin-bottom: 10%;
+  font-family: 'Fjalla One', sans-serif;
+}
+/* ADD MORE! */
+#aboutPara {
+  padding-right: 30%;
+  padding-left: 30%;
+}

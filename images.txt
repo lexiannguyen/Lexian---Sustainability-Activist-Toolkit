@@ -1,0 +1,11 @@
+title page pic:
+https://pixabay.com/illustrations/windmill-trees-sustainability-5591464/
+facts:
+https://sustainability.georgetown.edu/50-facts-for-50-years/
+
+
+sustainability is all about consuming and using resources in a way that is best for the environment, to preserve our resources and maintain Earth's nature and wildlife. that can mean many things, depending on your life and situation. it can mean turning off the lights when no one is home, or bringing a reusable bag to the grocery store, as long as you're trying your best within your means! if you want to learn more, explore our website! 
+
+<div class="overlay-container-one"> <img src="" alt=""> <div class="overlay-one">overlay text</div> </div>
+CSS .overlay-container-one { position: relative; width: 50%; max-width: 300px; } .overlay-one { position: absolute; bottom: 10px; background: rgba(0, 0, 0, 0.5); width: 88%; transition: .5s ease; opacity: 0; color: white; font-size: 20px; padding: 20px; text-align: center; margin-bottom: 17px; margin-left: 10px; margin-right: 10px; border-radius: 60px 60px 60px 60px; }
+This is what I did. I had to position all my containers and overlays separately.
